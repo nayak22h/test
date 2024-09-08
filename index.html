@@ -3,39 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Showcase</title>
-    <link rel="stylesheet" href="productstylin.css"> <!-- Link to the CSS file -->
+    <title>Product Menu</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-
-
-    <div class="container">
-	 <div class="product-list">
-            <h2>Select a Product:</h2>
-            <ul>
-                <li><a href="#" onclick="loadProduct('productA')">Product A</a></li>
-                <li><a href="#" onclick="loadProduct('productB')">Product B</a></li>
-                <li><a href="#" onclick="loadProduct('productC')">Product C</a></li>
-            </ul>
+    <nav class="menu">
+        <div class="menu-icon">
+            <img src="https://img.icons8.com/?size=100&id=68555&format=png&color=000000" alt="Menu Icon">
         </div>
-	
-        <!-- Image Carousel -->
-        <div class="product-details">
-            <div class="carousel">
-                <div class="slides" id="productImages">
-                    <!-- Images will be dynamically inserted here -->
-                </div>
-            </div>
-            <div class="dots" id="dots"></div>
-
-            <div class="product-name" id="productName"></div>
-            <div class="product-description" id="productDescription"></div>
-            <a href="#" class="catalog-link" id="catalogLink">View Product Catalog</a>
-        </div>
-    </div>
-
-    <script src="product.js"></script> <!-- Link to the JavaScript file -->
-
+        <ul class="menu-list">
+            <li>
+                <a href="#">Exterior & Interior Plasters</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Plast AC Plus</a></li>
+                    <li><a href="#">Tek-Plast AC</a></li>
+                    <li><a href="#">Tek-Plast CL</a></li>
+                    <li><a href="#">Tek-Plast CP</a></li>
+                    <li><a href="#">Tek-Plast GP</a></li>
+                    <li><a href="#">Tek-Plast HP</a></li>
+                    <li><a href="#">Thermosit Mortar C</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Adhesives & Bonding Agents</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Bond AR</a></li>
+                    <li><a href="#">Tek-Bond EA</a></li>
+                    <li><a href="#">Tek-Bond EP</a></li>
+                    <li><a href="#">Tek-Bond PVA</a></li>
+                    <li><a href="#">Tek-Bond SBR</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Pre-plaster Mortars</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Bind CHB</a></li>
+                    <li><a href="#">Tek-Bind RC</a></li>
+                    <li><a href="#">Tek-Bond LCB</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Curing Compounds</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Cure AR</a></li>
+                    <li><a href="#">Tek-Cure CS</a></li>
+                    <li><a href="#">Tek-Cure WB</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Release Agents</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Release UR</a></li>
+                    <li><a href="#">Tek-Release WB</a></li>
+                    <li><a href="#">Tek-Tard SR</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Concrete Repairs</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Crete CFC</a></li>
+                    <li><a href="#">Tek-Crete CPC</a></li>
+                    <li><a href="#">Tek-Crete CR</a></li>
+                    <li><a href="#">Tek-Crete EFC</a></li>
+                    <li><a href="#">Tek-Crete EGP</a></li>
+                    <li><a href="#">Tek-Crete EMH</a></li>
+                    <li><a href="#">Tek-Crete FL</a></li>
+                    <li><a href="#">Tek-Crete FR</a></li>
+                    <li><a href="#">Tek-Crete LW</a></li>
+                    <li><a href="#">Tek-Crete MC</a></li>
+                    <li><a href="#">Tek-Crete MCH</a></li>
+                    <li><a href="#">Tek-Crete SCR</a></li>
+                    <li><a href="#">Tek-Crete TRM</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Structural Grouts</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Grout AG</a></li>
+                    <li><a href="#">Tek-Grout CG</a></li>
+                    <li><a href="#">Tek-Grout EP</a></li>
+                    <li><a href="#">Tek-Grout HS</a></li>
+                    <li><a href="#">Tek-Grout IR</a></li>
+                    <li><a href="#">Tek-Grout LE</a></li>
+                    <li><a href="#">Tek-Grout NSG</a></li>
+                    <li><a href="#">Tek-Grout PG</a></li>
+                    <li><a href="#">Tek-Grout WR</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Tile Adhesives & Grouts</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Glue MBL</a></li>
+                    <li><a href="#">Tek-Grout AFG</a></li>
+                    <li><a href="#">Tek-Grout EG</a></li>
+                    <li><a href="#">Tek-Grout GP</a></li>
+                    <li><a href="#">Tek-Grout WJ</a></li>
+                    <li><a href="#">Tek-Grout WP</a></li>
+                    <li><a href="#">Tek-Tile ATA</a></li>
+                    <li><a href="#">Tek-Tile EP</a></li>
+                    <li><a href="#">Tek-Tile GCU</a></li>
+                    <li><a href="#">Tek-Tile GP</a></li>
+                    <li><a href="#">Tek-Tile NS</a></li>
+                    <li><a href="#">Tek-Tile TT</a></li>
+                    <li><a href="#">Tek-Tile WPS</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Flooring</a>
+                <ul class="submenu">
+                    <li> Cementitious System
+                        <ul>
+                            <li><a href="#">Tek-Floor FHQ</a></li>
+                            <li><a href="#">Tek-Floor FHS</a></li>
+                            <li><a href="#">Tek-Floor SL 10-30</a></li>
+                            <li><a href="#">Tek-Floor SL 10-40</a></li>
+                            <li><a href="#">Tek-Floor SL 10-70</a></li>
+                            <li><a href="#">Tek-Floor SL HS</a></li>
+                            <li><a href="#">Tek-Floor SL</a></li>
+                            <li><a href="#">Tek-Screed 20 C - new</a></li>
+                            <li><a href="#">Tek-Screed 30 C - new</a></li>
+                            <li><a href="#">Tek-Screed 40 C - new</a></li>
+                            <li><a href="#">Tek-Screed 50 C - new 2</a></li>
+                            <li><a href="#">Tek-Screed LTW</a></li>
+                        </ul>
+                    </li>
+                    <li> Resin System
+                        <ul>
+                            <li><a href="#">Tek-Grip Aggregate</a></li>
+                            <li><a href="#">Tek-Inlay Crystal</a></li>
+                            <li><a href="#">Tek-Floor Deck</a></li>
+                            <li><a href="#">Tek-Floor FHL</a></li>
+                            <li><a href="#">Tek-Floor PU</a></li>
+                            <li><a href="#">Tek-Floor SB</a></li>
+                            <li><a href="#">Tek-Floor SF</a></li>
+                            <li><a href="#">Tek-Floor UVR</a></li>
+                            <li><a href="#">Tek-Floor WB</a></li>
+                            <li><a href="#">Tek-Screed ES Epoxy Screed</a></li>
+                            <li><a href="#">Tek-Screed PU Screed</a></li>
+                            <li><a href="#">Tek-Screed SS PU Topping</a></li>
+                            <li><a href="#">Tek-Screed SS</a></li>
+                            <li><a href="#">Tek-Screed SS1</a></li>
+                            <li><a href="#">Tek-Seal SF</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Protective Coatings</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Coat AC</a></li>
+                    <li><a href="#">Tek-Coat CR</a></li>
+                    <li><a href="#">Tek-Coat HB</a></li>
+                    <li><a href="#">Tek-Coat UVR</a></li>
+                    <li><a href="#">Tek-Coat WB</a></li>
+                    <li><a href="#">Tek-Coat WP</a></li>
+                    <li><a href="#">Tek-Coat WR</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Sealants</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Fill JM</a></li>
+                    <li><a href="#">Tek-Seal AR</a></li>
+                    <li><a href="#">Tek-Seal PS</a></li>
+                    <li><a href="#">Tek-Seal PU</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Waterproofing</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Flex RW</a></li>
+                    <li><a href="#">Tek-Flex RWX</a></li>
+                    <li><a href="#">Tek-Plug WP</a></li>
+                    <li><a href="#">Tek-Prufe CCW</a></li>
+                    <li><a href="#">Tek-Prufe CF</a></li>
+                    <li><a href="#">Tek-Prufe CW</a></li>
+                    <li><a href="#">Tek-Prufe HS</a></li>
+                    <li><a href="#">Tek-Prufe PU</a></li>
+                    <li><a href="#">Tek-Prufe PUF</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Primers, Thinners & Cleaners</a>
+                <ul class="submenu">
+                    <li><a href="#">Tek-Clean RC</a></li>
+                    <li><a href="#">Tek-Inlay Primer</a></li>
+                    <li><a href="#">Tek-Prime AC</a></li>
+                    <li><a href="#">Tek-Prime AR</a></li>
+                    <li><a href="#">Tek-prime PU</a></li>
+                    <li><a href="#">Tek-Prime SB</a></li>
+                    <li><a href="#">Tek-Prime SF</a></li>
+                    <li><a href="#">Tek-Prime ZR</a></li>
+                    <li><a href="#">Tek-Wash PR</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Miscellaneous</a>
+                <ul class="submenu">
+                    <li><a href="#">Spraytek Gypsum Powder</a></li>
+                    <li><a href="#">Tek-Backing Rod</a></li>
+                    <li><a href="#">Tek-Bond GJC</a></li>
+                    <li><a href="#">Tek-Fill ST</a></li>
+                    <li><a href="#">Tek-Prufe Geotex</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 </body>
 </html>
